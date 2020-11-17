@@ -1,0 +1,94 @@
+1.package main
+
+import "fmt"
+
+func main() {
+	var a [2]string
+	a[0] = "Hello"
+	a[1] = "World"
+	fmt.Println(a[0], a[1])
+	fmt.Println(a)
+
+	primes := [6]int{2, 4, 6, 8, 10, 12}
+	fmt.Println(primes)
+}
+Hello World
+[Hello World]
+[2 4 6 8 10 12]
+
+2.package main
+
+import "fmt"
+
+func main() {
+	var a [2]string
+	a[0] = "shobana"
+	a[1] = "D"
+	fmt.Println(a[0], a[1])
+	fmt.Println(a)
+	primes := [6]int{3, 4, 5, 6, 7, 8}
+	fmt.Println(primes)
+}
+shobana D
+[shobana D]
+[3 4 5 6 7 8]
+
+3.package main
+
+import "fmt"
+func main() {
+   var n [10]int 
+   var i,j int
+
+          
+   for i = 0; i < 10; i++ {
+      n[i] = i + 110 /* set element at location i to i + 100 */
+   }
+   
+   
+   for j = 0; j < 10; j++ {
+      fmt.Printf("Element[%d] = %d\n", j, n[j] )
+   }
+}
+Element[0] = 1
+Element[1] = 11
+Element[2] = 112
+Element[3] = 113
+Element[4] = 114
+Element[5] = 115
+Element[6] = 116
+Element[7] = 117
+Element[8] = 118
+Element[9] = 119
+4.package main
+
+import (  
+    "fmt"
+)
+
+
+func main() {  
+    var a [3]int
+    fmt.Println(a)
+}
+[0 0 0]
+
+Program exited. 
+
+5.package main
+
+import (  
+    "fmt"
+)
+
+
+func main() {  
+    var a [3]int
+    a[0] = 2
+    a[1] = 8
+    a[2] = 5
+    fmt.Println(a)
+}
+[2 8 5]
+
+Program exited
